@@ -1,0 +1,268 @@
+{
+  "title": "LoanModel",
+  "type": "object",
+  "x-examples": {},
+  "properties": {
+    "ID": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "UniqueID": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SitusStateCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SitusCounty": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyJurisdictionName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SitusStateCountyFIPS": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanDocumentNumberFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanRecordingDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanLenderNameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanLenderNameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanLenderInfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanInterestRateType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanInterestRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionMortgageType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentFirstPositionOpenLoanTransactionID": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanDocumentNumberFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanRecordingDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanLenderNameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanLenderNameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanLenderInfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanInterestRateType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanInterestRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionMortgageType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentSecondPositionOpenLoanTransactionID": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanDocumentNumberFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanRecordingDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanLenderNameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanLenderNameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanLenderInfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanInterestRateType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanInterestRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionMortgageType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CurrentThirdPositionOpenLoanTransactionID": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LTV": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "format": "decimal"
+    },
+    "AvailableEquity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LendableEquity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PublicationDate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    }
+  },
+  "x-tags": [
+    "National"
+  ]
+}

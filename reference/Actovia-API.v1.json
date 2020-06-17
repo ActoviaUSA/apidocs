@@ -1,0 +1,249 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Actovia API",
+    "version": "1.0",
+    "description": "Actovia API Documentation",
+    "contact": {
+      "name": "James Paik",
+      "email": "james@actoviany.com",
+      "url": "www.actoviacmi.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://app.actoviacmi.com/api"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Address",
+      "description": "Relating to Addresses"
+    },
+    {
+      "name": "National",
+      "description": "Relating to the National Database"
+    },
+    {
+      "name": "NYC",
+      "description": "Relating to the NYC database"
+    }
+  ],
+  "paths": {
+    "/AddressLookup": {
+      "post": {
+        "summary": "Address Lookup (Autocomplete)",
+        "tags": [
+          "Address",
+          "National"
+        ],
+        "operationId": "post-api-AddressLookup",
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "text",
+            "description": "String to search by",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "integer"
+            },
+            "in": "query",
+            "name": "limit",
+            "description": "Limits results to this number. Default: 10"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "Success": {
+                      "type": "boolean",
+                      "description": "Returns true or false"
+                    },
+                    "List": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "../models/Address.v1.json"
+                      }
+                    },
+                    "ErrorMessage": {
+                      "type": "string",
+                      "example": "Invalid token/key."
+                    }
+                  },
+                  "required": [
+                    "Success"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "description": "Autocomplete for addresses for national data"
+      },
+      "parameters": []
+    },
+    "/GetPropertyById": {
+      "post": {
+        "summary": "Get Property By ID",
+        "tags": [
+          "National"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "Success": {
+                      "type": "boolean"
+                    },
+                    "ErrorMessage": {
+                      "type": "string",
+                      "description": "Only returned if Success is false"
+                    },
+                    "Obj": {
+                      "$ref": "../models/NationalProperty.v1.json"
+                    }
+                  },
+                  "required": [
+                    "Success"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "operationId": "post-GetPropertyById",
+        "description": "Gets a single property information by ID for national data",
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "uniqueid",
+            "required": true,
+            "description": "Unique ID from Actovia"
+          }
+        ]
+      }
+    },
+    "/GetByBBL": {
+      "post": {
+        "summary": "Get By BBL",
+        "tags": [
+          "NYC"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "Success": {
+                      "type": "boolean"
+                    },
+                    "ErrorMessage": {
+                      "type": "string",
+                      "description": "Returned if Success is false"
+                    },
+                    "Result": {
+                      "$ref": "../models/NYCProperty.v1.json"
+                    }
+                  },
+                  "required": [
+                    "Success"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "operationId": "post-GetByBBL",
+        "description": "Gets Property information by BBL (NYC database only)",
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "bbl",
+            "required": true,
+            "description": "BBL in Boro-Block-Lot format"
+          }
+        ]
+      }
+    },
+    "/GetByAddress": {
+      "post": {
+        "summary": "Get By Address",
+        "tags": [
+          "NYC"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "Success": {
+                      "type": "boolean"
+                    },
+                    "Result": {
+                      "$ref": "../models/NYCProperty.v1.json"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "operationId": "post-GetByAddress",
+        "description": "Gets Property by Address (NYC Database only)\nReturns the first address we find according to the query string.",
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "address",
+            "description": "Address or part of address"
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {},
+    "securitySchemes": {
+      "key": {
+        "name": "key",
+        "type": "apiKey",
+        "in": "query",
+        "description": "Specific API Key given to you by Actovia"
+      }
+    }
+  },
+  "security": [
+    {
+      "key": []
+    }
+  ]
+}

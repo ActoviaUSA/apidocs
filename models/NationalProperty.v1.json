@@ -1,0 +1,108 @@
+{
+  "title": "National Property",
+  "type": "object",
+  "x-examples": {
+    "example-1": {}
+  },
+  "properties": {
+    "StreetNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "StreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "City": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "State": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "County": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Zip": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Latitude": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Longitude": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_Address": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "_UniqueID": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxAccessors": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "./TaxAccessor.v1.json"
+      }
+    },
+    "LoanModels": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "./LoanModel.v1.json"
+      }
+    },
+    "Foreclosures": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "./Foreclosure.v1.json"
+      }
+    },
+    "Recorders": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "./Recorder.v1.json"
+      }
+    }
+  },
+  "x-tags": [
+    "National"
+  ]
+}

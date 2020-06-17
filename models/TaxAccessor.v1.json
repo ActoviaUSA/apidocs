@@ -1,0 +1,1924 @@
+{
+  "title": "TaxAccessor",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "UniqueID": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "PublicationDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "SitusStateCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "County": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyJurisdictionName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SitusStateCountyFIPS": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CombinedStatisticalArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CBSAName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CBSACode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "MSAName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "MSACode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "MetropolitanDivision": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "MinorCivilDivisionName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "MinorCivilDivisionCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "NeighborhoodCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CensusFIPSPlaceCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CensusTract": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CensusBlockGroup": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CensusBlock": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelNumberRaw": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelNumberFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelNumberYearAdded": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelNumberAlternate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelMapBook": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelMapPage": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelNumberYearChange": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelNumberPrevious": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelAccountNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AddressFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressUnitPrefix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressUnitValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "City": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "State": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Zip": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Zip4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressCRRT": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressInfoPrivacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CongressionalDistrictHouse": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyLatitude": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyLongitude": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GeoQuality": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalDescription": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalRange": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalTownship": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalSection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalQuarter": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalQuarterQuarter": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalSubdivision": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalPhase": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalTractNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalBlock1": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalBlock2": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalLotNumber1": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalLotNumber2": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalLotNumber3": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalUnit": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OwnerName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner1NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner1NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner1NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner1NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrustDescription": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CompanyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner2NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner2NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner2NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner2NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner2NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OwnerTypeDescription1": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OwnershipVestingRelationCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner3NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner3NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner3NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner3NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner3NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner4NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner4NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner4NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner4NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartyOwner4NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OwnerTypeDescription2": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailingCounty": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailingFIPS": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressStreetDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressStreetSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressStreetPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressUnitPrefix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressUnit": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressZIP4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressCRRT": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailAddressInfoFormat": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContactOwnerMailInfoPrivacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "StatusOwnerOccupiedFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner1NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner1NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner1NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner1NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner1NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner2NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner2NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner2NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner2NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner2NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner3NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner3NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner3NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner3NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner3NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner4NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner4NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner4NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner4NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedOwner4NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxYearAssessed": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxAssessedValueTotal": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxAssessedValueImprovements": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxAssessedValueLand": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxAssessedImprovementsPerc": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PreviousAssessedValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxMarketValueYear": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxMarketValueTotal": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxMarketValueImprovements": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxMarketValueLand": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxMarketImprovementsPerc": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxFiscalYear": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxRateArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxBilledAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxDelinquentYear": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LastAssessorTaxRollUpdate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AssrLastUpdated": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxExemptionHomeownerFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxExemptionDisabledFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxExemptionSeniorFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxExemptionVeteranFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxExemptionWidowFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxExemptionAdditional": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "YearBuilt": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "YearBuiltEffective": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ZonedCodeLocal": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyUseMuni": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyUseGroup": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyUseStandardized": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AssessorLastSaleDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AssessorLastSaleAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AssessorPriorSaleDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AssessorPriorSaleAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LastOwnershipTransferDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LastOwnershipTransferDocumentNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LastOwnershipTransferTransactionID": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedLastSaleDocumentBook": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedLastSaleDocumentPage": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedLastDocumentNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedLastSaleDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedLastSalePrice": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeedLastSaleTransactionID": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaBuilding": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaBuildingDefinitionCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaGross": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Area1stFloor": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Area2ndFloor": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaUpperFloors": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaLotAcres": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaLotSF": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaLotDepth": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaLotWidth": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsAtticArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsAtticFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsBasementArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsBasementAreaFinished": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsBasementAreaUnfinished": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParkingGarage": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParkingGarageArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParkingCarport": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParkingCarportArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "HVACCoolingDetail": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "HVACHeatingDetail": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "HVACHeatingFuel": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "UtilitiesSewageUsage": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "UtilitiesWaterSource": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "UtilitiesMobileHomeHookupFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Foundation": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Construction": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "InteriorStructure": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PlumbingFixturesCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ConstructionFireResistanceClass": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SafetyFireSprinklersFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "FlooringMaterialPrimary": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BathCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BathPartialCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BedroomsCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "StoriesCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "UnitsCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsBonusRoomFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsBreakfastNookFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsCellarFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsCellarWineFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsExerciseFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsFamilyCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsGameFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsGreatFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsHobbyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsLaundryFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsMediaFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsMudFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsOfficeArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsOfficeFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsSafeRoomFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsSittingFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsStormShelter": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsStudyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsSunroomFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsUtilityArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoomsUtilityCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Fireplace": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "FireplaceCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AccessabilityElevatorFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AccessabilityHandicapFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "EscalatorFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CentralVacuumFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContentIntercomFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContentSoundSystemFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "WetBarFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SecurityAlarmFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "StructureStyle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Exterior1Code": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoofMaterial": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RoofConstruction": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContentStormShutterFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContentOverheadDoorFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ViewDescription": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PorchCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PorchArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PatioArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeckFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DeckArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "FeatureBalconyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BalconyArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BreezewayFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParkingRVParkingFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParkingSpaceCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DrivewayArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DrivewayMaterial": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Pool": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PoolArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ContentSaunaFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TopographyCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "FenceCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "FenceArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CourtyardFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CourtyardArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ArborPergolaFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SprinklersFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GolfCourseGreenFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TennisCourtFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SportsCourtFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ArenaFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "WaterFeatureFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PondFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BoatLiftFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BuildingsCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BathHouseArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BathHouseFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BoatAccessFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BoatHouseArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BoatHouseFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CabinArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CabinFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CanopyArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CanopyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GazeboArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GazeboFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GraineryArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GraineryFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GreenHouseArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GreenHouseFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GuestHouseArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GuestHouseFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "KennelArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "KennelFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LeanToArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LeanToFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LoadingPlatformArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LoadingPlatformFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "MilkHouseArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "MilkHouseFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OutdoorKitchenFireplaceFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PoolHouseArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PoolHouseFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PoultryHouseArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PoultryHouseFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "QuonsetArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "QuonsetFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ShedArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ShedCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SiloArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SiloFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "StableArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "StableFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "StorageBuildingArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "StorageBuildingFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "UtilityBuildingArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "UtilityBuildingFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PoleStructureArea": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PoleStructureFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CommunityRecRoomFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelShellRecord": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "update_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    }
+  },
+  "x-tags": [
+    "National"
+  ]
+}

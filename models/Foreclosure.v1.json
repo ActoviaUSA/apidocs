@@ -1,0 +1,641 @@
+{
+  "title": "Foreclosure",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "TransactionID": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "format": "int32"
+    },
+    "UniqueID": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "format": "int32"
+    },
+    "RecordType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SitusStateCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SitusCounty": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyJurisdictionName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "SitusStateCountyFIPS": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ParcelNumberFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressUnitPrefix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressUnitValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressZIP4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressCRRT": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressInfoPrivacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyLatitude": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyLongitude": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GeoQuality": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ZonedCodeLocal": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyUseMuni": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyUseGroup": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyUseStandardized": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BathCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BedroomsCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaBuilding": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaBuildingDefinitionCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaLotSF": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AreaLotAcres": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "YearBuilt": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "YearBuiltEffective": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OriginalLoanRecordingDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OriginalLoanInstrumentNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OriginalLoanBookPage": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BorrowerNameOwner": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OriginalLoanLoanNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OriginalLoanAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "OriginalLoanInterestRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LoanMaturityDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderNameFullStandardized": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddress": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressStreetDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressStreetSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressStreetPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressUnitValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LenderPhone": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ServicerName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ServicerAddress": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ServicerCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ServicerState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ServicerZip": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ServicerPhone": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddress": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressStreetDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressStreetSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressStreetPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressUnitValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteePhone": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ForeclosureInstrumentDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ForeclosureRecordingDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ForeclosureInstrumentNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ForeclosureBookPage": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CaseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TrusteeReferenceNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Payment": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DefaultAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PenaltyInterest": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LoanBalance": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "JudgmentDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "JudgmentAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Courthouse": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionAddress": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionUnit": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AuctionTime": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RecordedAuctionOpeningBid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "EstimatedValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CreateDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RecordLastUpdated": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PublicationDate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "update_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    }
+  },
+  "x-tags": [
+    "National"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "title": "NYCProperty",
+  "type": "object",
+  "properties": {
+    "BBL": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "City": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "County": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Zip": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Zoning": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LotType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LotFront": {
+      "type": "number",
+      "format": "double"
+    },
+    "LotDepth": {
+      "type": "number",
+      "format": "double"
+    },
+    "LotSize": {
+      "type": "number",
+      "format": "double"
+    },
+    "FAR": {
+      "type": "number",
+      "format": "double"
+    },
+    "SqFt": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "Type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "BuildingClass": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxClass": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Stories": {
+      "type": "integer"
+    },
+    "Units": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_A_BldgFront": {
+      "type": "number",
+      "format": "double"
+    },
+    "AB_A_BldgDepth": {
+      "type": "number",
+      "format": "double"
+    },
+    "IE_T_ActualPropTaxes": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "YearBuilt": {
+      "type": "integer"
+    },
+    "IsLandmark": {
+      "type": "boolean"
+    },
+    "AB_A_ResidentialSQF": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_A_CommercialSQF": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_TotalGrossSQF": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_A_ResidentialUnits": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_A_CommUnits": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_R_Garage": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_R_Apartments": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_R_Rooms": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_R_HotelRooms": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "AB_R_HotelClass": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "AB_TotalResUnits": {
+      "type": "integer",
+      "format": "int32"
+    }
+  },
+  "description": "Property returned from NYC query",
+  "x-tags": [
+    "NYC"
+  ]
+}

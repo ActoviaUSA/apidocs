@@ -1,0 +1,36 @@
+{
+  "title": "National Address",
+  "type": "object",
+  "description": "Address Model",
+  "x-examples": {
+    "Sample": {
+      "uniqueid": "",
+      "address": "",
+      "city": "",
+      "state": ""
+    }
+  },
+  "properties": {
+    "uniqueid": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "uniqueid",
+    "address",
+    "city",
+    "state"
+  ],
+  "x-tags": [
+    "Address"
+  ]
+}

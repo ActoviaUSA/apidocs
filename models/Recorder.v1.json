@@ -1,0 +1,1442 @@
+{
+  "title": "Recorder",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "TransactionID": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "UniqueID": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "DocumentRecordingStateCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DocumentRecordingCountyName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DocumentRecordingJurisdictionName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DocumentRecordingCountyFIPs": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DocumentTypeCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DocumentNumberFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DocumentNumberLegacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "InstrumentNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Book": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Page": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "InstrumentDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RecordingDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransactionType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferInfoPurchaseTypeCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ForeclosureAuctionSale": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferInfoDistressCircumstanceCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "QuitclaimFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferInfoMultiParcelFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ArmsLengthFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PartialInterest": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferAmount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferAmountInfoAccuracy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferTaxTotal": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferTaxCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferTaxCounty": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor1NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor1NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor1NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor1NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor1NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor1InfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor1InfoOwnerType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor2NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor2NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor2NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor2NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor2NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor2InfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor2InfoOwnerType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor3NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor3NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor3NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor3NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor3NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor3InfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor4NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor4NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor4NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor4NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor4NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantor4InfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressStreetDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressStreetSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressStreetPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressUnitPrefix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressUnitValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressZIP4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressCRRT": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressInfoFormat": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GrantorAddressInfoPrivacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee1NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee1NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee1NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee1NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee1NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee1InfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee1InfoOwnerType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee2NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee2NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee2NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee2NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee2NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee2InfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeInfoVesting1": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee3NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee3NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee3NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee3NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee3NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee3InfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee4NameFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee4NameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee4NameMiddle": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee4NameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee4NameSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Grantee4InfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailCareOfName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeInfoEntityCount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeInfoVesting2": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeInvestorFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressStreetDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressStreetSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressStreetPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressUnitPrefix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressUnitValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressZIP4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressCRRT": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressInfoFormat": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeMailAddressInfoPrivacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "GranteeGrantorOwnerRelationshipCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TitleCompanyStandardizedCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TitleCompanyStandardizedName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TitleCompanyRaw": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalDescriptionPart1": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalDescriptionPart2": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalDescriptionPart3": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalDescriptionPart4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalRange": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalTownship": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalSection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalDistrict": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalSubDivision": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalTract": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalBlock": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalLot": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalUnit": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalPlatMapBook": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LegalPlatMapPage": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "APNFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "APNOriginal": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressFull": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressHouseNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetSuffix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressStreetPostDirection": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressUnitPrefix": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressUnitValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressZIP4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressCRRT": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressInfoFormat": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyAddressInfoPrivacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "RecorderMapReference": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyUseGroup": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PropertyUseStandardized": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1DocumentNumberFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1DocumentNumberLegacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InstrumentNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1Book": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1Page": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1RecordingDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1Type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1Amount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderNameFullStandardized": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderNameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderNameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderAddress": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderAddressZIP4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderInfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1LenderInfoSellerCarryBackFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1Term": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1TermType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1TermDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InfoPrepaymentPenaltyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InfoPrepaymentTerm": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestRateType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestTypeInitial": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1FixedStepConversionRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1DocumentInfoRiderAdjustableRateFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InfoInterestTypeChangeYear": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InfoInterestTypeChangeMonth": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InfoInterestTypeChangeDay": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestRateMinFirstChangeRateConversion": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestRateMaxFirstChangeRateConversion": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestChangeFrequency": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestMargin": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestIndex": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestRateMax": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1AdjustableRateIndex": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestOnlyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage1InterestOnlyPeriod": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2DocumentNumberFormatted": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2DocumentNumberLegacy": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InstrumentNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2Book": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2Page": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2RecordingDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2Type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2Amount": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderNameFullStandardized": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderNameFirst": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderNameLast": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderAddress": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderAddressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderAddressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderAddressZIP": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderAddressZIP4": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderInfoEntityClassification": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2LenderInfoSellerCarryBackFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2Term": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2TermType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2TermDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InfoPrepaymentPenaltyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InfoPrepaymentTerm": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestRateType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestTypeInitial": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2FixedStepConversionRate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2DocumentInfoRiderAdjustableRateFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InfoInterestTypeChangeYear": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InfoInterestTypeChangeMonth": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InfoInterestTypeChangeDay": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestRateMinFirstChangeRateConversion": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestRateMaxFirstChangeRateConversion": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestChangeFrequency": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestMargin": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestIndex": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestRateMax": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2AdjustableRateIndex": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestOnlyFlag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Mortgage2InterestOnlyPeriod": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferInfoPurchaseDownPayment": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TransferInfoPurchaseLoanToValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LastUpdated": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PublicationDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "update_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    }
+  },
+  "x-tags": [
+    "National"
+  ]
+}
