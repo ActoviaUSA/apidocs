@@ -25,7 +25,7 @@
       "description": "Relating to the National Database"
     },
     {
-      "name": "NYC",
+      "name": "New York City",
       "description": "Relating to the NYC database"
     }
   ],
@@ -144,9 +144,6 @@
     "/GetByBBL": {
       "post": {
         "summary": "Get By BBL",
-        "tags": [
-          "NYC"
-        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -186,15 +183,15 @@
             "required": true,
             "description": "BBL in Boro-Block-Lot format"
           }
+        ],
+        "tags": [
+          "New York City"
         ]
       }
     },
     "/GetByAddress": {
       "post": {
         "summary": "Get By Address",
-        "tags": [
-          "NYC"
-        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -226,6 +223,9 @@
             "name": "address",
             "description": "Address or part of address"
           }
+        ],
+        "tags": [
+          "New York City"
         ]
       }
     }
