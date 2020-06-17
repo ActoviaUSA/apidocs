@@ -25,7 +25,7 @@
       "description": "Relating to the National Database"
     },
     {
-      "name": "New York City",
+      "name": "NYC",
       "description": "Relating to the NYC database"
     }
   ],
@@ -34,7 +34,6 @@
       "post": {
         "summary": "Address Lookup (Autocomplete)",
         "tags": [
-          "Address",
           "National"
         ],
         "operationId": "post-api-AddressLookup",
@@ -77,7 +76,8 @@
                     },
                     "ErrorMessage": {
                       "type": "string",
-                      "example": "Invalid token/key."
+                      "example": "Invalid token/key.",
+                      "description": "Returned if Success is false"
                     }
                   },
                   "required": [
@@ -144,6 +144,9 @@
     "/GetByBBL": {
       "post": {
         "summary": "Get By BBL",
+        "tags": [
+          "NYC"
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -183,15 +186,15 @@
             "required": true,
             "description": "BBL in Boro-Block-Lot format"
           }
-        ],
-        "tags": [
-          "New York City"
         ]
       }
     },
     "/GetByAddress": {
       "post": {
         "summary": "Get By Address",
+        "tags": [
+          "NYC"
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -223,9 +226,6 @@
             "name": "address",
             "description": "Address or part of address"
           }
-        ],
-        "tags": [
-          "New York City"
         ]
       }
     }
