@@ -2,7 +2,18 @@
   "title": "National Property",
   "type": "object",
   "x-examples": {
-    "example-1": {}
+    "Sample": {
+      "StreetNumber": "123",
+      "StreetName": "BROAD STREET",
+      "City": "SOMERVILLE",
+      "State": "AL",
+      "County": "Morgan",
+      "Zip": "35670",
+      "Latitude": "34.473203",
+      "Longitude": "-86.800864",
+      "_Address": "123 BROAD STREET, SOMERVILLE, AL",
+      "_UniqueID": "233158944"
+    }
   },
   "properties": {
     "StreetNumber": {

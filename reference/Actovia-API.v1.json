@@ -221,7 +221,8 @@
             },
             "in": "query",
             "name": "address",
-            "description": "Address or part of address"
+            "description": "Address or part of address",
+            "required": true
           }
         ],
         "tags": [

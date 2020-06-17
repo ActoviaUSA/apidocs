@@ -151,5 +151,41 @@
   "description": "Property returned from NYC query",
   "x-tags": [
     "NYC"
-  ]
+  ],
+  "x-examples": {
+    "Sample": {
+      "BBL": "M-146-1101",
+      "City": "Tribeca",
+      "County": "Manhattan",
+      "Zip": "10013",
+      "Zoning": "",
+      "LotType": null,
+      "LotFront": 0,
+      "LotDepth": 0,
+      "LotSize": 0,
+      "FAR": 0,
+      "SqFt": 6144,
+      "Type": "Condominiums",
+      "BuildingClass": "RK",
+      "TaxClass": "4",
+      "Stories": 5,
+      "Units": 4,
+      "AB_A_BldgFront": 0,
+      "AB_A_BldgDepth": 0,
+      "IE_T_ActualPropTaxes": 106593,
+      "YearBuilt": 0,
+      "IsLandmark": false,
+      "AB_A_ResidentialSQF": 0,
+      "AB_A_CommercialSQF": 6144,
+      "AB_TotalGrossSQF": 6144,
+      "AB_A_ResidentialUnits": 0,
+      "AB_A_CommUnits": 0,
+      "AB_R_Garage": 0,
+      "AB_R_Apartments": 4,
+      "AB_R_Rooms": 0,
+      "AB_R_HotelRooms": 0,
+      "AB_R_HotelClass": "    ",
+      "AB_TotalResUnits": 4
+    }
+  }
 }
